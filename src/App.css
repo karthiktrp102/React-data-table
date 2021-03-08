@@ -1,0 +1,73 @@
+.menu {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background:black; 
+  color: white;
+}
+
+label {
+  padding: 14px;
+}
+
+select {
+  height: 25px;
+  margin: 15px;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+
+.input_tab {
+	padding: 12px 0px;
+	box-shadow: none;
+	outline-width: 0;
+	text-align: center;
+	font-size: 18px;
+	position: absolute;
+	top: 0.3%;
+	border: none;
+	left: 20%;
+}
+
+th {
+  border: 1px solid;
+}
+
+tr{
+  border: 5px solid;
+}
+
+.Table {
+  display: table;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.TableRow {
+  display: table-row;
+}
+.TableHeading {
+  display: table-header-group;
+}
+.TableCell,
+.TableHead {
+  display: table-cell;
+  padding: 15px 10px;
+}
+.TableHeading {
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.TableRow:nth-child(odd) {
+
+}
+
+.TableRow:nth-child(even) {
+
+}
+
+.TableHead {
+  font-weight: bold;
+
+}
