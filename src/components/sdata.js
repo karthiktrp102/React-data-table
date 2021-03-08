@@ -5,6 +5,7 @@ import Pagination from '../pagination/Pagination';
 require("es6-promise").polyfill();
 require("isomorphic-fetch");
 
+
 const Small = () => {
   const [data, setData] = useState([]);
   const [q, setQ] = useState("");
@@ -19,6 +20,8 @@ const Small = () => {
     .then(response => response.json())
     .then((json) => setData(json));
   }, []);
+
+
 
   const search= (rows) => {
     const columns = rows[0] && Object.keys(rows[0]);
